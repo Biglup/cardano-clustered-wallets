@@ -49,7 +49,7 @@ of the state of all addresses in the cluster.
 
 ### `IBlockchainDataSource`
 
-- Represents an object of this interface can resolve information about domain entities on the Cardano blockchain.
+- An object of this interface can resolve information about domain entities on the Cardano blockchain.
 
 An implementation of this interface is provided using blockfrost. Keep in mind that since this is a
 POC the implementation is not optimized for performance and is not meant to be used in production.
