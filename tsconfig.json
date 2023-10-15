@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "composite": false,
+    "module": "commonjs",
+    "target": "es2021",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "declaration": true,
+    "declarationMap": true,
+    //"noEmitOnError": true,
+    //"noUnusedParameters": true,
+    //"noUnusedLocals": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    //"strict": true,
+    "strictPropertyInitialization": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "outDir": "dist"
+  },
+  "include": [
+    "src"
+  ]
+}

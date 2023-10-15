@@ -1,0 +1,38 @@
+# guard accidental inclusion after incorrectly using npm install
+package-lock.json
+coverage
+node_modules
+docs
+.env
+.envrc.local
+tsconfig.tsbuildinfo
+lerna-debug.log
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+dist
+# created by nix
+result
+source
+
+# created by macOS
+.DS_Store
+
+# IDE configs
+.idea/
+.vscode/
+
+# direnv
+/.direnv
+
+# prj-spec dirs
+# <https://github.com/numtide/prj-spec>
+/.bin
+/.run
+/.cache
+/.data
+/.config
+/.local
