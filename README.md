@@ -4,7 +4,7 @@ The Cardano blockchain doesn't inherently recognize "wallets" or "balances." Ins
 Current wallet implementations cater towards single address wallets or multi address wallets with a single stake key, this while convenient, doesn't completely cover all possible use cases, in this repository
 we explore the possibility of creating a wallet abstraction that can cover more complex use cases.
 
-This is a proof of concept of method for clustering and discovering related Cardano addresses based on shared payment and staking credentials.
+This is a proof of concept of a method for clustering and discovering related Cardano addresses based on shared payment and staking credentials.
 
 ## Overview
 
